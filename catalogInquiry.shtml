@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Catalog Inquiry</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <div id="titles">
+        <h1><u>Catalog Inquiry</u></h1>
+    </div>
+
+
+    <form action="http://npp.cs.umd.edu/cmsc335/projects/TerpStore/catalogInquiry.php" method="get">
+            
+        <div id="catalogOptions">
+            <p id="category">
+                <label for="optionList">
+                    <u>Item Category</u>
+                </label>
+                <input id="optionList" list="item-options" name="item-choice">                    
+                
+                <datalist id="item-options">
+                    <option value="clothes">
+                    <option value="books">
+                    <option value="music">
+                    <option value="food"> 
+                   <!-- <option value="other"> -->
+                </datalist>
+
+                    <!--what does it mean to have the focus
+                    
+                    
+                        A: Add in labels
+
+
+
+                        ALSOOOOO FIX THE DROP DOWN MENU
+
+                    -->
+            </p>
+                
+            <p> 
+                <u>Maxiumum Cost ($)</u>
+                <input id="maxCostBox" name="maximumCost" type="number" min="1" max="1000" step="5">
+            </p>
+
+            <p id="checkBox">
+                <input type="checkbox" name="availableOnCampus"> <u>Available on Campus</u><br><br>
+                <input type="checkbox" name="availableOnline" checked="checked"> <u>Available Online</u>
+            </p>
+
+            <p>
+                <u>Additional Information</u>
+                <textarea id="addInfoBox" rows="5" cols="40" name="info"></textarea>
+            </p>
+
+            <p>
+                <u>Contact Email Address:</u> 
+                <input id="emailBox" name="email" type="email" placeholder="example@terpmail.umd.edu">
+            </p>
+
+            <p>
+                <input type="submit" value="Submit Inquiry" style="height: 40px; width: 100px">
+                <input type="reset" value="Clear" style="height: 40px; width: 100px">
+            </p>
+
+        </div>
+    </form>
+
+    <div id="catalogFoot">
+        <div id="foot">
+            <!--#include virtual="footer.shtml" -->
+        </div>
+    </div>
+</body>
+
+
+</html>

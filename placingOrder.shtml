@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Placing Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div id="titles">
+        <h1><u>Placing Order</u></h1>
+    </div>
+
+    
+    <form action="processing/placingOrder.php" method="post">
+        <div id="placingOptions">
+            <p>
+                <label for="serialBox"><u>Item Serial #</u></label>
+                <input id="serialBox" type="text" placeholder="umd-item-0000" name="serialNumber">
+            </p>
+
+            <p>
+                <u>Credit Card # </u>
+                &nbsp;
+                <input id="cardBox1" type="text" name="cc1" maxlength="4">
+                &nbsp;-&nbsp;
+                <input id="cardBox2" type="text" name="cc2" maxlength="4">
+                &nbsp;-&nbsp;
+                <input id="cardBox3" type="text" name="cc3" maxlength="4">
+                &nbsp;-&nbsp;
+                <input id="cardBox4" type="text" name="cc4" maxlength="4">
+            </p>
+
+            <p>
+                <label for="addyBox"><u>Shipping Address</u>&nbsp;</label>
+                <input id="addyBox" type="text" name="shipping">
+            </p>
+
+            <p>
+                <label for="placeEmailBox">
+                    <u>Contact Email Address:</u>&nbsp;
+                </label>
+                <input id="placeEmailBox" type="email" name="email" placeholder="example@terpmail.umd.edu">
+            </p>
+
+            <p>
+                <input type="submit" value="Submit Order" style="height: 40px; width: 100px">
+                <input type="reset" value="Clear" style="height: 40px; width: 100px">
+            </p>
+
+        </div>
+
+    </form>
+
+    <div id="placingFoot">
+        <div id="foot">
+            <!--#include virtual="footer.shtml"-->
+        </div>
+    </div>
+</body>
+
+
+</html>

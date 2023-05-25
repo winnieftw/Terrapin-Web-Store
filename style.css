@@ -1,0 +1,141 @@
+/* You implement */
+html{
+    font-size: 14px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: .5rem;
+    border: solid .5rem green;
+    background-image: url('images/JimHenson.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 58rem;
+}
+
+
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color:beige;
+}
+
+a:hover {
+    font-size: 1rem;
+}
+
+form{
+    background-color: rgba(255, 255, 255, 0.85);
+    border: .5rem azure;
+    width: 35rem;
+    padding: .7rem;
+    margin-left: 2rem;
+    border: .3rem solid white;
+}
+
+input{
+    border-color: red;
+}
+
+
+#titles{
+    color: azure;
+    padding-left: .5rem;
+    font-size: 2.3rem;
+    background-color: rgba(0, 0, 0, .4);
+    width:fit-content;
+    
+}
+
+#foot{
+    font-size: 2rem;
+    text-align: center;
+    border-style: ridge;
+    border-color: lightgray;
+    border-width: 1rem;
+    background-color: red;
+    box-shadow: 0 0 0 .3rem lightblue;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    /* bottom: 0; */
+}
+
+
+/* For Index.shtml */
+#options{
+    font-size: 2rem;
+    color: beige;
+    /* padding-top: 11rem;
+    padding-bottom: 20rem;
+    padding-left: 24rem; */
+    margin-top: 10rem;
+    margin-left: 35rem;
+}
+
+#indexFoot{
+    margin-top: 25.18rem;
+}
+
+
+/* Elements within the box */
+#elements{
+    text-align: center;
+    background-color: rgb(211,211,211, 0.8);
+    width: 20rem;
+    border: solid .2rem;
+    border-color: black;
+}
+
+/* For catalogInquiry.shtml */
+#catalogOptions{
+    font-size: 1.5rem;
+}
+#emailBox{
+    width: 15rem;
+}
+
+#addInfoBox{
+    width: 30rem;
+}
+
+#maxCostBox{
+    width: 5rem;
+}
+
+#catalogFoot{
+    margin-top: 7.3rem;
+}
+
+/* For placingOrder.shtml */
+#placingOptions{
+    font-size: 1.5rem;
+}
+#cardBox1{
+    width: 2.4rem;
+}
+#cardBox2{
+    width: 2.4rem;
+}
+#cardBox3{
+    width: 2.4rem;
+}
+#cardBox4{
+    width: 2.4rem;
+}
+
+#addyBox{
+    width: 14.5rem;
+}
+
+#placeEmailBox{
+    width: 16rem;
+}
+
+#placingFoot{
+    margin-top: 19.98rem;
+}
